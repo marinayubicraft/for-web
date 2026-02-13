@@ -66,7 +66,7 @@ export default {
    * I kinda wonder if this should be a setting, or something fetched from the backend dynamically.
    */
   MAX_FILE_SIZE:
-    (import.meta.env.VITE_CFG_MAX_FILE_SIZE as number) ?? 20_000_000,
+    50_000_000,
   /**
    * Session ID to set during development.
    */
